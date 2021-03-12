@@ -1,0 +1,33 @@
+#contacto {
+  padding-top: 100px;
+}
+
+.subContacto a {
+  background-color: #245576;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+.subContacto p {
+  background-color: #245576;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+.formulario-contacto .row .col-md-8 b {
+  color: #fff;
+  visibility: hidden;
+}
+
+.formulario-contacto .row .col-md-4 {
+  text-align: center;
+}
+
+.formulario-contacto .row .col-md-4 b {
+  color: #fff;
+}
+/*# sourceMappingURL=ubicacion.css.map */

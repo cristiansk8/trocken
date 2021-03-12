@@ -1,0 +1,30 @@
+.contenedorLearning{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    height: 94px;
+    .row{
+        .logo{
+            img{
+                width: 200px;
+                height: auto;
+                margin-top: -17px;
+            }
+
+        }
+        .col-2{
+            a{
+                .imgLogosLeading{
+                    width: 60px;
+                    height: auto;
+                }
+            }
+
+        }
+    }
+
+}
+
+
+
+

@@ -1,0 +1,58 @@
+$color-fuente:#FFFFFF;
+$font-size-texto-iconos:1rem;
+$font-size-titulo-caracteriticas:50px;
+
+.contenedorCaracteristicas{
+    padding-bottom: 200px;
+}
+.contenedorTituloCaracteristicas{
+    margin-top: 4%;
+}
+
+.contenedorInformacionCaracteriticas{
+    margin-top: 4%;
+    .textoCaracteristicas{
+        color: $color-fuente;
+        font-size:$font-size-texto-iconos;   
+    }
+}
+
+.tituloCaracteristicas{
+    font-size: 41px;
+    color: $color-fuente;
+
+}
+
+.contenedorIconosCaractereristicas{
+    margin-top: 4%;    
+}
+
+.iconoCaracteristica{
+    padding: 20px 40px !important;
+    margin: 0px;
+        img{
+            display:block;
+            max-width:100%;
+            height:auto;
+        }
+        p{
+            font-size:$font-size-texto-iconos;
+            color: $color-fuente;            
+        }
+            
+}
+
+
+.cajaCurva{
+    height: 200px;
+    border-radius: 4px 3px 6px / 2px 4px;
+    background-color: red;
+}
+.fondoCurva{
+    img{
+        width: 100%;
+        height: auto;
+        margin-top: -250px;
+    }
+
+}

@@ -1,0 +1,15 @@
+#galeria {
+  background-image: url(https://wordpress-375621-1382727.cloudwaysapps.com/wp-content/uploads/2020/08/fondo-opacidad-02.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.tituloGaleria {
+  font-size: 40px;
+  color: #245576;
+}
+
+.tituloGaleria h1 {
+  margin: 30px 0;
+}
+/*# sourceMappingURL=galeria.css.map */

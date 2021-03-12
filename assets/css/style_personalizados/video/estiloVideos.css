@@ -1,0 +1,52 @@
+.filaVideos {
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.informacionVideo {
+  padding: 2%;
+  padding-right: 30px !important;
+}
+
+@media (min-width: 992px) {
+  .informacionVideo {
+    padding-right: 130px !important;
+  }
+}
+
+.tituloInformacionVideo {
+  font-size: 30px;
+  text-align: left;
+}
+
+.conoceMas {
+  font-size: 40px;
+}
+
+.notaLegal {
+  font-size: 13px;
+  margin-top: 23px;
+}
+
+.boton {
+  height: 80px;
+  border: solid 3px #FFFFFF;
+  border-radius: 5px;
+  margin: 5px;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.botonUno {
+  background-color: #81B74F;
+}
+
+.botonDos {
+  background-color: #243851;
+}
+
+.imagen:hover {
+  -webkit-filter: opacity(0.5);
+          filter: opacity(0.5);
+}
+/*# sourceMappingURL=estiloVideos.css.map */

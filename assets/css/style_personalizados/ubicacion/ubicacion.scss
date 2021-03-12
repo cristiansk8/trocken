@@ -1,0 +1,98 @@
+#contacto{
+    padding-top: 100px;;
+}
+.subContacto{
+    a{
+    background-color: #245576;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    }
+    p{
+        background-color: #245576;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 10px;
+        font-weight: bold;
+        color: #fff;
+        }
+}
+.formulario-contacto{
+    .row{
+        .col-md-8{
+            b{
+                color: #fff;
+                visibility: hidden;
+            }
+        }
+        .col-md-4{
+            text-align: center;
+            b{
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+
+.navbar{
+    position: relative;
+	margin: 0 0 0 0;
+	border: none;
+    padding: 15px 0 10px;
+    
+    ul {
+        display: contents;
+        &.navbar-nav {
+            float: none;
+            clear: both;
+            > li {
+                list-style: none;
+                @include mq('sm') {
+                    display: inline-block;
+                    vertical-align: middle;
+                    float: none;
+                }
+                a {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    color: $white;
+                    @include mq('sm') {
+                        @include font(14px);
+                    }
+                    @include mq('md') {
+                        @include font(15px);
+                    }
+                    @include mq('lg') {
+                        @include font(17px);
+                    }
+                    &:hover,
+                    &:focus {
+                        background-color: transparent;
+                        font-weight: bold;
+                    }
+                }
+                &.active {
+                    a {
+                        background-color: transparent;
+                        font-weight: bold;
+                    }
+                    &::after{
+                        content: "";
+                            display: block;
+                            bottom: 0;
+                            width: 89%;
+                            height: .4rem;
+                            background-color: white;
+                            margin: 0 12px;
+                            position: relative;
+                            top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

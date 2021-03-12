@@ -1,0 +1,120 @@
+@font-face {
+  font-family: MuseoSans;
+  src: url(../Menu/Resources/Fonts/MuseoSans.otf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.social {
+  position: fixed;
+  left: 22px;
+  top: 200px;
+  z-index: 100;
+}
+
+.imgfachada {
+  position: absolute;
+  padding: 0px;
+  width: 100%;
+}
+
+.menus {
+  position: fixed;
+  top: 40px;
+  z-index: 100;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3%;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  position: fixed;
+  top: 40px;
+  z-index: 100;
+  width: 90px;
+  background-color: #245576;
+  border: solid 6px white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.menu img {
+  width: 80%;
+}
+
+.menu hr {
+  height: 0.5px;
+  background-color: white;
+  margin: 0px 10px 0px 10px;
+}
+
+.menuUno {
+  margin-top: 10%;
+  left: 0;
+  margin-left: 40px;
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .menuUno {
+    display: block;
+  }
+}
+
+.menuDos {
+  right: 0;
+  margin-right: 40px;
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .menuDos {
+    display: block;
+  }
+}
+
+.item {
+  width: 100%;
+  height: 80%;
+  padding: 10%;
+}
+
+.item a {
+  text-align: center;
+}
+
+.item a p {
+  font-family: MuseoSans, Helvetica, sans-serif;
+  size: 15px;
+  color: white;
+  font-size: 10px;
+}
+
+.item .flecha {
+  position: relative;
+  float: left;
+  width: 10px;
+  left: 0px;
+  top: 0px;
+  margin-top: -50%;
+  margin-left: -5px;
+}
+
+.contentenedorBannerPrincipal {
+  height: 1018px;
+}
+/*# sourceMappingURL=estiloMenus.css.map */

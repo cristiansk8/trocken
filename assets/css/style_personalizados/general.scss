@@ -1,0 +1,21 @@
+.site-footer{
+    background-image: url(https://wordpress-375621-1382727.cloudwaysapps.com/wp-content/uploads/2020/08/fondo-opacidad-02.png);
+    background-position: bottom;
+    background-size: cover;
+
+    .info{
+        color:#245576;
+        p{
+            font-size: 24px;
+        }
+        a{
+            background-color: #245576;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 10px;
+            font-weight: bold;
+            color: #fff;  
+        }
+    }
+}
+

@@ -1,0 +1,54 @@
+.contenedorCaracteristicas {
+  padding-bottom: 200px;
+}
+
+.contenedorTituloCaracteristicas {
+  margin-top: 4%;
+}
+
+.contenedorInformacionCaracteriticas {
+  margin-top: 4%;
+}
+
+.contenedorInformacionCaracteriticas .textoCaracteristicas {
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+.tituloCaracteristicas {
+  font-size: 41px;
+  color: #FFFFFF;
+}
+
+.contenedorIconosCaractereristicas {
+  margin-top: 4%;
+}
+
+.iconoCaracteristica {
+  padding: 20px 40px !important;
+  margin: 0px;
+}
+
+.iconoCaracteristica img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.iconoCaracteristica p {
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.cajaCurva {
+  height: 200px;
+  border-radius: 4px 3px 6px / 2px 4px;
+  background-color: red;
+}
+
+.fondoCurva img {
+  width: 100%;
+  height: auto;
+  margin-top: -250px;
+}
+/*# sourceMappingURL=estiloCaracteristicas.css.map */
